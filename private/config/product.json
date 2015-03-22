@@ -1,0 +1,90 @@
+{
+  "devmode": false,
+
+  "metaDataSheetKey": "1IDunPHmj9t5RSvzCbMb0sR4Dn1uIidptUAo4vyvyqGQ",
+
+  "kadira": {
+    "appId": "QQKYLPz8mzRq53cJc",
+    "appSecret": "cec7d905-9dc2-478f-b45d-40c840773995"
+  },
+
+  "loginServices": {
+    "facebook": {
+      "service": "facebook",
+      "appId": "298709586975908",
+      "secret": "561f6d036184a6789cba157a0dfaf971"
+    },
+    "twitter": {
+      "service": "twitter",
+      "consumerKey": "sT5b2v5hF9aiwaYzph8YFakhS",
+      "secret": "7bhLDACsMzeXvfQJpZUQOV0ZYZxMoN0OqXinad67iY6fpLDgBQ"
+    }
+  },
+  "app": {
+    "restrictLogins": false,
+    "adminEmails": [
+      "bret@abitrandom.net",
+      "dc5@pikkle.com",
+      "dc@biz.pikkle.com"
+    ]
+  },
+  "cordova": {},
+  "public": {
+    "segmentio": "2IBhyqA3DE",
+    "amplitude": "aceca66dfaef35f999ffca6c0c3fa3fb",
+    "intercom": "b8rz103l",
+    "heap": "947413895",
+    "reloadAll": false,
+
+    "facebook": {
+      "appId": "298709586975908"
+    },
+
+    "version": 7,
+    "scrollDuration": 0,
+    "vername": "guest login",
+    "devenv": "dev",
+
+    "login": "USERNAME_ONLY",
+
+    "AccountsUiConfig": {
+      "passwordSignupFields": "USERNAME_AND_OPTIONAL_EMAIL",
+      "requestPermissions": {
+        "facebook": [
+          "email",
+          "user_friends",
+          "friends_events",
+          "friends_location",
+          "friends_about_me",
+          "friends_status"
+        ]
+      }
+    },
+
+    "ddplogLevel": 1,
+    "ga": {
+      "id": "UA-53450299-1",
+      "trackInterests": true,
+      "trackInPage": true,
+      "require": {
+        "displayfeatures": true,
+        "linkid": "linkid.js"
+      }
+    },
+
+    "streamConfig": {
+      "DEVMODE_SPEEDUP": 5,
+      "FRAME_DELAY": 2000,
+      "SCROLL_SPEED": 500
+    },
+
+    "debugSettings": {
+      "CStreamer": true,
+      "Ribots": true,
+      "magnets": false,
+      "pairs": true
+    }
+
+  }
+
+}
