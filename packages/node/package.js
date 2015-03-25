@@ -20,7 +20,7 @@ Package.onUse(function(api) {
 	//api.use();
 
 	// add Server
-  api.addFiles(['server/node.js','lib/nodeController.js']);
+  api.addFiles(['server/node.js','lib/nodeController.js'], ['server']);
 	//api.export(['Nodes']);
 
 	// add client
