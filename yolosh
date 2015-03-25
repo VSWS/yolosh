@@ -1,0 +1,34 @@
+#!/bin/sh
+
+
+APP_DOMAIN="dev.yolosh.com"
+SETTING_FILE="private/config/dev.json"
+PORT=8888
+
+
+case $1 in
+    "dev")
+        meteor run --settings $SETTING_FILE --port $PORT
+        ;;
+    "deploy")
+        if [ "$2" == "product" ];
+        then
+            APP_DOMAIN="beta.yolosh.com"
+            SETTING_FILE="private/config/product.json"
+            meteor deploy --settings $SETTING_FILE $APP_DOMAIN
+        else
+            meteor deploy --settings $SETTING_FILE $APP_DOMAIN
+        fi
+        ;;
+    "product")
+        SETTING_FILE="private/config/product.json"
+        PORT=9999
+        meteor run --settings $SETTING_FILE --port $PORT
+        ;;
+    "--help")
+        echo "Help option"
+        ;;
+    *)
+        echo "Usage man page "
+        ;;
+esac
