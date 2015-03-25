@@ -1,4 +1,4 @@
-# Yolosh Project - You only life once so be happy !
+## Yolosh Project - You only life once so be happy !
 
 ### 1. Một số quy tắc.
  - Viết hoa chữ cái đầu là biến global có thể truy cập mọi nới. Ví dụ "NodeSchema" còn "getNode" truy cập local.
@@ -15,9 +15,10 @@
 - private : chứa config
 - public : chứa static file
 - yolosh : Shell Enviroment
-
+```
 
 ### 3. Cấu trúc của 1 Module
+```
 - Node: Tên module tương ứng chức năng của ứng dụng
 --- client : xử lý phía client
 --- i18n : xử lý ngôn ngữ
@@ -26,3 +27,4 @@
 --- test : Code test
 --- packages.js : Khởi tạo module
 --- README.md : API docs của module
+```
