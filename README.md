@@ -28,3 +28,9 @@
 --- packages.js : Khởi tạo module
 --- README.md : API docs của module
 ```
+
+### 4. Các thư viện mở rộng sử dụng & tài liệu
+- tap:i18n : [Tài liệu](https://github.com/TAPevents/tap-i18n/)
+- iron:router : [Tài liệu](https://github.com/iron-meteor/iron-router/blob/devel/Guide.md)
+- aldeed:collection2 : [Tài liệu](https://github.com/aldeed/meteor-collection2/)
+- aldeed:autoform : [Tài liệu](https://github.com/aldeed/meteor-autoform)
