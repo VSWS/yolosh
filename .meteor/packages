@@ -8,3 +8,9 @@ meteor-platform
 accounts-ui
 accounts-password
 tap:i18n
+iron:router
+yolosh:collection
+yolosh:step
+yolosh:node
+yolosh:comment
+yolosh:notification

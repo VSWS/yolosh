@@ -2,15 +2,13 @@
 
 set -x
 
-APPHOST="dev.yolosh"
+APPDOMAIN="dev.yolosh.com"
+APPENV=dev
 
 if [ $1 = "product" ]; then
-  APPHOST="yolosh"
+  APPDOMAIN="beta.yolosh.com"
+  APPENV=product
 fi
-
-
-APPDOMAIN="$APPHOST.meteor.com"
-APPENV=product
 
 meteor deploy --settings "private/config/${APPENV}.json" $APPDOMAIN
 sleep 20
