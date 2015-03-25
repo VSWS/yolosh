@@ -8,10 +8,3 @@ Router.route('/', function () {
 	});
 });
 
-Router.router('/collections', function () {
-	this.render('Collections', {
-		data: function () {
-
-		}
-	})
-});
