@@ -12,11 +12,26 @@ Package.describe({
 
 Package.onUse(function(api) {
   api.versionsFrom('1.0.4.1');
-  api.addFiles('node.js');
+
+	// use side server
+	api.use(['aldeed:collection2', 'iron:router']);
+
+	// use client
+	//api.use();
+
+	// add Server
+  api.addFiles(['server/node.js','lib/nodeController.js']);
+	//api.export(['Nodes']);
+
+	// add client
+	//api.addFiles('lib/nodeController.js', ['client']);
+
 });
 
-Package.onTest(function(api) {
-  api.use('tinytest');
-  api.use('yolosh:node');
-  api.addFiles('node-tests.js');
-});
+
+//
+//Package.onTest(function(api) {
+//  api.use('tinytest');
+//  api.use('yolosh:node');
+//  api.addFiles('node-tests.js');
+//});
