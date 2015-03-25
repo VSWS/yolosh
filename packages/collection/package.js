@@ -11,7 +11,21 @@ Package.describe({
 });
 
 Package.onUse(function(api) {
+	console.log("-- collection")
   api.versionsFrom('1.0.4.1');
+
+	// server
+	api.use([
+		'iron:router',
+		'underscore'
+	], 'server');
+
+	// client
+	api.use([
+		'blaze'
+	], 'client');
+
+	// both
   api.addFiles('collection.js');
 });
 

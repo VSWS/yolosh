@@ -7,3 +7,11 @@ Router.route('/', function () {
 		data: function () { }
 	});
 });
+
+Router.router('/collections', function () {
+	this.render('Collections', {
+		data: function () {
+
+		}
+	})
+});
