@@ -2,4 +2,5 @@
 ### Meteor template
 .meteor/local
 .meteor/meteorite
+.meteor/versions
 .idea/
