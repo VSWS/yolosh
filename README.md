@@ -14,8 +14,6 @@ Hiện tại không phát triển theo hướng packages vì làm packages cần
 - models: Xử lý model
 - private: Config
 - server: Xử lý phía server
---- packages.js : Khởi tạo module
---- README.md : API docs của module
 ```
 
 ### 3. Các thư viện mở rộng sử dụng & tài liệu
