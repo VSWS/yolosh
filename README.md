@@ -5,31 +5,20 @@
  - 1 tab = 2 space
  - Sử dụng README.md trong 1 module để viết Quick docs API.
 
-
-### 2. Chức năng thư mục
----
+### 2. Cấu trúc dự án
+Hiện tại không phát triển theo hướng packages vì làm packages cần am hiểu tốt hơn về hệ thống meteor.
 ```
-- lib : Utils - Method cho App.
---- appRouter: Router của ứng dụng
-- packages : Modules ứng dụng
-- private : chứa config
-- public : chứa static file
-- yolosh : Shell Enviroment
-```
-
-### 3. Cấu trúc của 1 Module
-```
-- Node: Tên module tương ứng chức năng của ứng dụng
---- client : xử lý phía client
---- i18n : xử lý ngôn ngữ
---- lib : Utils & Method cho modules
---- server: xử lý phía server
---- test : Code test
+- client: Xử lý phía Client
+- i18n: Ngôn ngữ
+- lib : Utils & Method
+- models: Xử lý model
+- private: Config
+- server: Xử lý phía server
 --- packages.js : Khởi tạo module
 --- README.md : API docs của module
 ```
 
-### 4. Các thư viện mở rộng sử dụng & tài liệu
+### 3. Các thư viện mở rộng sử dụng & tài liệu
 - tap:i18n : [Tài liệu](https://github.com/TAPevents/tap-i18n/)
 - iron:router : [Tài liệu](https://github.com/iron-meteor/iron-router/blob/devel/Guide.md)
 - aldeed:collection2 : [Tài liệu](https://github.com/aldeed/meteor-collection2/)
