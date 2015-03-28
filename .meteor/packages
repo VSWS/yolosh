@@ -11,13 +11,14 @@ tap:i18n
 iron:router
 
 # Package Project
-yolosh:collection
-yolosh:step
-yolosh:node
-yolosh:comment
-yolosh:notification
+#yolosh:collection
+#yolosh:step
+#yolosh:node
+#yolosh:comment
+#yolosh:notification
 
 meteorhacks:kadira
 aldeed:collection2
 aldeed:autoform
 underscore
+materialize:materialize
