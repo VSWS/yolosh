@@ -9,6 +9,7 @@ PORT=8888
 case $1 in
     "dev")
         meteor run --settings $SETTING_FILE --port $PORT
+        # chromium http://localhost:8888
         ;;
     "deploy")
         if [ "$2" == "product" ];
@@ -24,6 +25,7 @@ case $1 in
         SETTING_FILE="private/config/product.json"
         PORT=9999
         meteor run --settings $SETTING_FILE --port $PORT
+        # chromium http://localhost:9999
         ;;
     "--help")
         echo "Help option"
