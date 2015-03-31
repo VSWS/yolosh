@@ -2,16 +2,19 @@
     <div class="fixed-action-btn" style="top: 40px; right: 24px;">
         <a class="btn-floating btn-large waves-effect waves-light red"><i class="mdi-content-add"></i></a>
     </div>
+    
+
 
     <div class="row">
-        Collection Count: {{incompleteCount}}
-      {{#each collections}}
-        <h6>Collection Title: {{title}}</h6>
-        <!--{{> collectionCard}}-->
-      {{/each}}
+      <ul>
+        {{#each ngas}}
+        <li>{{text}}</li>
+        {{/each}}
+      </ul>
     </div>
 
 </template>
+
 
 <template name="newCollection">
     <h3>Form for new Collection</h3>
