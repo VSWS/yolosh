@@ -18,7 +18,5 @@ iron:router
 #yolosh:notification
 
 meteorhacks:kadira
-aldeed:collection2
-aldeed:autoform
 underscore
 materialize:materialize

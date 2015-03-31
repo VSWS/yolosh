@@ -1,3 +1,36 @@
 <template name="collections">
-    Collections {{title}}
+    <div class="fixed-action-btn" style="top: 40px; right: 24px;">
+        <a class="btn-floating btn-large waves-effect waves-light red"><i class="mdi-content-add"></i></a>
+    </div>
+
+    <div class="row">
+        Collection Count: {{incompleteCount}}
+      {{#each collections}}
+        <h6>Collection Title: {{title}}</h6>
+        <!--{{> collectionCard}}-->
+      {{/each}}
+    </div>
+
+</template>
+
+<template name="newCollection">
+    <h3>Form for new Collection</h3>
+
+</template>
+
+<template name="collectionCard">
+    <div class="col s6 m4 l3">
+        <div class="card">
+            <div class="card-image">
+                <img src="{{img}}">
+            </div>
+            <div class="card-content">
+                <h6>{{name}}</h6>
+            </div>
+            <div class="card-action">
+                <a href="#">This is a link</a>
+                <a href='#'>This is a link</a>
+            </div>
+        </div>
+    </div>
 </template>

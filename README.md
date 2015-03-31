@@ -4,6 +4,8 @@
  - Viết hoa chữ cái đầu là biến global có thể truy cập mọi nới. Ví dụ "NodeSchema" còn "getNode" truy cập local.
  - 1 tab = 2 space
  - Sử dụng README.md trong 1 module để viết Quick docs API.
+More follow:
+[meteor style guide](https://github.com/meteor/meteor/wiki/Meteor-Style-Guide)
 
 ### 2. Cấu trúc dự án
 Hiện tại không phát triển theo hướng packages vì làm packages cần am hiểu tốt hơn về hệ thống meteor.

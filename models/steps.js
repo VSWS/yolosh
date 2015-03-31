@@ -4,9 +4,9 @@
 
 Steps = new Mongo.Collection('steps');
 
-Steps.attachSchema(new SimpleSchema({
-	title : {
-		type: String,
-		max: 200
+// Allow
+Steps.allow({
+	insert: function (userId, doc) {
+
 	}
-}));
+});

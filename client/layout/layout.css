@@ -1,5 +1,5 @@
 body {
-  background-color: #E9EAED;
+  background-color: #f3f3f3;
 }
 /*------------------------
   Menu Sidebar ben trai
@@ -7,9 +7,6 @@ body {
 .sidebar-left ul.side-nav.fixed {
   z-index: 997;
   padding-top: 46px;
-}
-.container {
-  padding-left: 240px;
 }
 @media only screen and (max-width: 992px) {
   header,
@@ -37,6 +34,13 @@ body {
 .navbar-fixed nav .brand-logo {
   font-size: 1.6rem;
   margin-left: 10px;
+}
+/*----------------------
+      Sub Menu Top
+-----------------------*/
+.subTopBar {
+  background: #fff;
+  box-shadow: 0 2px 6px rgba(0, 0, 0, 0.2);
 }
 /*--------------------
       Tab Slide
