@@ -1,0 +1,346 @@
+/* Styles Application */
+body {
+  font-family: 'Roboto', sans-serif;
+  background-color: #f6f5f6;
+}
+a {
+  color: #2b64d7;
+  text-decoration: none;
+}
+.pull-left {
+  float: left;
+}
+.pull-right {
+  float: right;
+}
+.list-understyle {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+/*
+  Sidebar Left
+*/
+#sidebar {
+  position: fixed;
+  background-color: #fff;
+  width: 269px;
+  padding: 25px 15px 0 15px;
+  height: 100%;
+  top: 0;
+  left: 0;
+  display: block;
+  overflow: hidden;
+  border-right: 1px solid #efeeef;
+}
+#sidebar #header-sidebar {
+  height: 30px;
+  position: relative;
+  overflow: hidden;
+  padding-bottom: 10px;
+}
+#sidebar #header-sidebar .logo-sidebar img {
+  width: 28px;
+  height: 28px;
+  margin: 1px 10px 0 1px;
+}
+#sidebar #header-sidebar .logo-sidebar span {
+  font-size: 20px;
+  padding: 3px 0;
+  display: block;
+  text-shadow: 0 -1px rgba(0, 0, 0, 0.2);
+}
+#sidebar #header-sidebar .search-sidebar {
+  position: absolute;
+  width: 30px;
+  height: 30px;
+  right: 0;
+  top: 0;
+  background: url('../images/patterns.png') 0 0 no-repeat;
+}
+#sidebar #main-sidebar {
+  margin-top: 7px;
+  padding: 0 5px;
+}
+#sidebar #main-sidebar #create-collection a {
+  height: 25px;
+  margin: 0 10px;
+  background-color: #41c193;
+  color: #fff;
+  font-size: 13px;
+  font-weight: 500;
+  -webkit-border-radius: 5px;
+  -moz-border-radius: 5px;
+  border-radius: 5px;
+  display: block;
+  text-align: center;
+  line-height: 1.8em;
+}
+#sidebar #main-sidebar #create-collection a:hover {
+  background-color: #36a57c;
+}
+#sidebar #main-sidebar #menu-sidebar {
+  margin-top: 9px;
+}
+#sidebar #main-sidebar #menu-sidebar .icon {
+  height: 20px;
+  width: 20px;
+  display: block;
+  float: left;
+}
+#sidebar #main-sidebar #menu-sidebar li {
+  height: 20px;
+  overflow: hidden;
+  padding: 8px 10px;
+}
+#sidebar #main-sidebar #menu-sidebar li a {
+  color: #000;
+  display: block;
+  text-indent: 10px;
+  font-size: 15px;
+}
+#sidebar #main-sidebar #menu-sidebar li:hover {
+  background-color: rgba(0, 0, 0, 0.05);
+}
+#sidebar #main-sidebar #menu-sidebar li:hover a {
+  color: #2b64d7;
+}
+#sidebar #main-sidebar #menu-sidebar li.active a {
+  color: #2b64d7;
+}
+#sidebar #main-sidebar #menu-sidebar .timeline-sidebar .icon {
+  background: url("../images/patterns.png") -60px -30px no-repeat;
+}
+#sidebar #main-sidebar #menu-sidebar .collection-sidebar .icon {
+  background: url("../images/patterns.png") -100px -30px no-repeat;
+}
+#sidebar #main-sidebar #menu-sidebar .explorer-sidebar .icon {
+  background: url("../images/patterns.png") -80px -30px no-repeat;
+}
+#sidebar #main-sidebar #organization-sidebar {
+  padding: 0 5px;
+  position: relative;
+  margin-top: 10px;
+}
+#sidebar #main-sidebar #organization-sidebar .header-organization-sidebar {
+  font-size: 11px;
+  font-weight: 500;
+  text-transform: uppercase;
+  color: #777;
+  padding: 0 10px;
+  margin-bottom: 5px;
+}
+#sidebar #main-sidebar #organization-sidebar ul li {
+  height: 20px;
+  overflow: hidden;
+  padding: 8px 10px;
+  position: relative;
+}
+#sidebar #main-sidebar #organization-sidebar ul li a {
+  color: #000;
+  display: block;
+  font-size: 14px;
+  font-weight: 400;
+  line-height: 1.6em;
+}
+#sidebar #main-sidebar #organization-sidebar ul li a img {
+  width: 20px;
+  height: 20px;
+  display: block;
+  float: left;
+  margin-right: 10px;
+}
+#sidebar #main-sidebar #organization-sidebar ul li:hover {
+  background-color: rgba(0, 0, 0, 0.05);
+}
+#sidebar #main-sidebar #organization-sidebar ul li:hover a {
+  color: #2b64d7;
+}
+#sidebar #main-sidebar #organization-sidebar ul li.active a {
+  color: #2b64d7;
+}
+#sidebar #main-sidebar #organization-sidebar ul li.active .count {
+  border: 1px solid #2b64d7;
+  background-color: #2b64d7;
+  color: #fff;
+}
+#sidebar #main-sidebar #organization-sidebar ul li .count {
+  position: absolute;
+  right: 10px;
+  top: 10px;
+  font-size: 10px;
+  font-weight: 400;
+  border-radius: 3px;
+  border: 1px solid #777;
+  padding: 2px;
+  min-width: 10px;
+  text-align: center;
+}
+/*
+  Main Application
+*/
+#main-app {
+  position: relative;
+  display: block;
+  padding: 25px 0 0 15px;
+  margin-left: 300px;
+}
+#main-app #header-mainApp {
+  height: 30px;
+  width: 100%;
+  padding-bottom: 10px;
+  position: relative;
+  display: block;
+  overflow: hidden;
+}
+#main-app #header-mainApp #header-left h1 {
+  margin: 0;
+  font-size: 20px;
+  font-weight: 400;
+  padding: 3px 0;
+}
+#main-app #header-mainApp #header-right {
+  position: relative;
+  height: 30px;
+  overflow: hidden;
+  width: auto;
+  margin-right: 30px;
+}
+#main-app #header-mainApp #header-right .icon {
+  margin-left: 10px;
+  cursor: pointer;
+  width: 30px;
+  height: 30px;
+}
+#main-app #header-mainApp #header-right #create-button {
+  background: url("../images/patterns.png") -30px 0 no-repeat;
+}
+#main-app #header-mainApp #header-right #create-button:hover {
+  background: url("../images/patterns.png") -60px 0 no-repeat;
+}
+#main-app #header-mainApp #header-right #user-header {
+  margin-right: 5px;
+}
+#main-app #header-mainApp #header-right #user-header span {
+  font-weight: 300;
+  color: #777;
+  font-size: 1.1em;
+  line-height: 1.8em;
+}
+#main-app #header-mainApp #header-right #user-header:hover span {
+  color: #2b64d7;
+}
+#main-app #header-mainApp #header-right #notify-header {
+  background: url("../images/patterns.png") -150px 0 no-repeat;
+}
+#main-app #header-mainApp #header-right #notify-header:hover {
+  background: url("../images/patterns.png") -180px 0 no-repeat;
+}
+#main-app #header-mainApp #header-right #notify-header ul {
+  display: none;
+}
+#main-app #header-mainApp #header-right #settings-header {
+  background: url("../images/patterns.png") -90px 0 no-repeat;
+}
+#main-app #header-mainApp #header-right #settings-header:hover {
+  background: url("../images/patterns.png") -120px 0 no-repeat;
+}
+#main-app #header-mainApp #header-right #settings-header ul {
+  display: none;
+}
+#main-app #content-app {
+  position: relative;
+  display: block;
+  margin-top: 10px;
+}
+#main-app #content-app .organization {
+  position: relative;
+  display: block;
+  margin-bottom: 40px;
+  clear: both;
+}
+#main-app #content-app .organization .header-organization {
+  margin: 0;
+  height: 20px;
+  text-indent: 10px;
+  font-size: 15px;
+  font-weight: 700;
+  line-height: 1.4em;
+  color: #333;
+}
+#main-app #content-app .organization .header-organization img {
+  height: 20px;
+  width: 20px;
+  float: left;
+}
+#main-app #content-app .organization .collections:after {
+  display: table;
+  clear: both;
+  content: " ";
+}
+#main-app #content-app .organization .collections {
+  padding-left: 20px;
+  position: relative;
+  display: block;
+  list-style: none;
+  margin: 0;
+}
+#main-app #content-app .organization .collections .collection {
+  width: 285px;
+  margin: 10px;
+  height: 108px;
+  border-radius: 5px;
+  background-color: #0c77d1;
+  float: left;
+  position: relative;
+  overflow: hidden;
+  cursor: pointer;
+}
+#main-app #content-app .organization .collections .collection .star {
+  position: absolute;
+  top: 10px;
+  left: 10px;
+  font-size: 14px;
+  font-weight: 400;
+  color: #fff;
+  height: 20px;
+  overflow: hidden;
+  line-height: 1.5em;
+}
+#main-app #content-app .organization .collections .collection .star .icon {
+  background: url("../images/patterns.png") 0px -30px no-repeat;
+  width: 20px;
+  height: 20px;
+  display: block;
+  float: left;
+}
+#main-app #content-app .organization .collections .collection .star.active .icon {
+  background: url("../images/patterns.png") -20px -30px no-repeat;
+}
+#main-app #content-app .organization .collections .collection .bookmark {
+  background: url("../images/patterns.png") -40px -30px no-repeat;
+  height: 20px;
+  width: 20px;
+  position: absolute;
+  top: -2px;
+  right: 10px;
+}
+#main-app #content-app .organization .collections .collection .title-collection {
+  color: #fff;
+  font-size: 14px;
+  font-weight: 400;
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  height: 28px;
+  background: rgba(0, 0, 0, 0.3);
+  width: 100%;
+}
+#main-app #content-app .organization .collections .collection .title-collection p {
+  line-height: 2em;
+  padding: 0px 10px;
+  margin: 0px;
+}
+#main-app #content-app #bookmarked .header-organization .icon {
+  background: url("../images/patterns.png") 0px -30px no-repeat;
+}
