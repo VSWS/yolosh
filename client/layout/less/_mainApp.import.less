@@ -1,0 +1,199 @@
+
+/*
+  Main Application
+*/
+#main-app {
+  position: relative;
+  display: block;
+  padding: 25px 0 0 15px;
+  margin-left: 300px;
+
+  #header-mainApp {
+    height: 30px;
+    width: 100%;
+    padding-bottom: 10px;
+    position: relative;
+    display: block;
+    overflow: hidden;
+
+    #header-left {
+      h1 {
+        margin: 0;
+        font-size: 20px;
+        font-weight: 400;
+        padding: 3px 0;
+      }
+    }
+
+    #header-right {
+      position: relative;
+      height: 30px;
+      overflow: hidden;
+      width: auto;
+      margin-right: 30px;
+
+      .icon {
+        margin-left: 10px;
+        cursor: pointer;
+        width: 30px;
+        height: 30px;
+
+      }
+
+      #create-button {
+        background: url("../images/patterns.png") -30px 0 no-repeat;
+        &:hover {
+          background: url("../images/patterns.png") -60px 0 no-repeat;
+        }
+      }
+
+      #user-header {
+        margin-right: 5px;
+        span {
+          font-weight: 300;
+          color: #777;
+          font-size: 1.1em;
+          line-height: 1.8em;
+        }
+        &:hover {
+          span {
+            color: #2b64d7;
+          }
+        }
+      }
+
+      #notify-header {
+        background: url("../images/patterns.png") -150px 0 no-repeat;
+        &:hover {
+          background: url("../images/patterns.png") -180px 0 no-repeat;
+        }
+        ul {
+          display: none;
+        }
+      }
+
+      #settings-header {
+        background: url("../images/patterns.png") -90px 0 no-repeat;
+        &:hover {
+          background: url("../images/patterns.png") -120px 0 no-repeat;
+        }
+        ul {
+          display: none;
+        }
+      }
+
+    }
+  }
+
+  #content-app {
+    position: relative;
+    display: block;
+    margin-top: 10px;
+
+    // Organization
+    .organization {
+      position: relative;
+      display: block;
+      margin-bottom: 40px;
+      clear: both;
+
+
+      .header-organization {
+        margin: 0;
+        height: 20px;
+        text-indent: 10px;
+        font-size: 15px;
+        font-weight: 700;
+        //text-shadow: @text-shadown;
+        line-height: 1.4em;
+        color: #333;
+        img {
+          height: 20px;
+          width: 20px;
+          float: left;
+        }
+      }
+      .collections:after {
+        display: table;
+        clear: both;
+        content: " ";
+      }
+      .collections {
+        padding-left: 20px;
+        position: relative;
+        display: block;
+        list-style: none;
+        margin: 0;
+
+        .collection {
+          width: 285px;
+          margin: 10px;
+          height: 108px;
+          border-radius: 5px;
+          background-color: #0c77d1;
+          float: left;
+          position: relative;
+          overflow: hidden;
+          cursor: pointer;
+
+          .star {
+            position: absolute;
+            top: 10px;
+            left: 10px;
+            font-size: 14px;
+            font-weight: 400;
+            color: #fff;
+            height: 20px;
+            overflow: hidden;
+            line-height: 1.5em;
+            .icon {
+              background: url("../images/patterns.png") 0px -30px no-repeat;
+              width: 20px;
+              height: 20px;
+              display: block;
+              float: left;
+            }
+            &.active {
+              .icon {
+                background: url("../images/patterns.png") -20px -30px no-repeat;
+              }
+            }
+          }
+
+          .bookmark {
+            background: url("../images/patterns.png") -40px -30px no-repeat;
+            height: 20px;
+            width: 20px;
+            position: absolute;
+            top: -2px;
+            right: 10px;
+          }
+
+          .title-collection {
+            color: #fff;
+            font-size: 14px;
+            font-weight: 400;
+            position: absolute;
+            bottom: 0;
+            left: 0;
+            height: 28px;
+            background: rgba(0,0,0,.3);
+            width: 100%;
+            p {
+              line-height: 2em;
+              padding: 0px 10px;
+              margin: 0px;
+            }
+          }
+        }
+      }
+    }
+
+    //  BOOKMARKED
+    #bookmarked {
+      .header-organization .icon{
+        background: url("../images/patterns.png") 0px -30px no-repeat;
+      }
+    }
+  }
+}

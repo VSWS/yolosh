@@ -1,21 +1,21 @@
 {
   "devmode": false,
 
-  "metaDataSheetKey": "1IDunPHmj9t5RSvzCbMb0sR4Dn1uIidptUAo4vyvyqGQ",
+  "metaDataSheetKey": "key",
 
   "kadira": {
-    "appId": "QQKYLPz8mzRq53cJc",
-    "appSecret": "cec7d905-9dc2-478f-b45d-40c840773995"
+    "appId": "2DnWMWe3aYv3qQBL6",
+    "appSecret": "db171e2b-580e-489c-989f-571e695e96d6"
   },
 
   "loginServices": {
     "facebook": {
       "service": "facebook",
-      "appId": "298709586975908",
-      "secret": "561f6d036184a6789cba157a0dfaf971"
+      "appId": "369213629942974",
+      "secret": "c123e67843bd7db1dcf549230729cddc"
     },
-    "twitter": {
-      "service": "twitter",
+    "google": {
+      "service": "google",
       "consumerKey": "sT5b2v5hF9aiwaYzph8YFakhS",
       "secret": "7bhLDACsMzeXvfQJpZUQOV0ZYZxMoN0OqXinad67iY6fpLDgBQ"
     }
@@ -23,9 +23,8 @@
   "app": {
     "restrictLogins": false,
     "adminEmails": [
-      "bret@abitrandom.net",
-      "dc5@pikkle.com",
-      "dc@biz.pikkle.com"
+      "tung@yolosh.com",
+      "tungnguyen@vsoft.vn"
     ]
   },
   "cordova": {},
@@ -37,11 +36,10 @@
     "reloadAll": false,
 
     "facebook": {
-      "appId": "298709586975908"
+      "appId": "xxx"
     },
 
-    "version": 7,
-    "scrollDuration": 0,
+    "version": 1,
     "vername": "guest login",
     "devenv": "dev",
 
@@ -62,8 +60,9 @@
     },
 
     "ddplogLevel": 1,
+
     "ga": {
-      "id": "UA-53450299-1",
+      "id": "UA-xxx-1",
       "trackInterests": true,
       "trackInPage": true,
       "require": {
@@ -72,11 +71,6 @@
       }
     },
 
-    "streamConfig": {
-      "DEVMODE_SPEEDUP": 5,
-      "FRAME_DELAY": 2000,
-      "SCROLL_SPEED": 500
-    },
 
     "debugSettings": {
       "CStreamer": true,
