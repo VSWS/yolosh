@@ -18,10 +18,9 @@ dburles:collection-helpers
 reactive-dict
 ongoworks:speakingurl
 matb33:collection-hooks
-twbs:bootstrap
 
 
-ian:accounts-ui-bootstrap-3
 accounts-facebook
 accounts-google
 service-configuration
+less
